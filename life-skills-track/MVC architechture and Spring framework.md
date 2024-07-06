@@ -15,11 +15,11 @@ Suppose, a user requests the list of all modules in the Javascript section, to a
 
 ![MVC pattern](https://media.geeksforgeeks.org/wp-content/uploads/20220224172049/Model2.png)
 
-Step 1 : this request is sent to the `controller` section.
-Step 2 : the `controller` section then sends this request to the `model` section, which in-return sends the list (as requested by the user), to the `controller` back.
-Step 3 : the `controller` then sends this list sent by `model` section, to the the `view` section.
-Step 4 : the `view` section transforms the data into a presentable format, and sends it back to the `cotroller`.
-Step 5 : the `controller` then renders the data sent by the `view` section to the user. 
+- Step 1 : this request is sent to the `controller` section.
+- Step 2 : the `controller` section then sends this request to the `model` section, which in-return sends the list (as requested by the user), to the `controller` back.
+- Step 3 : the `controller` then sends this list sent by `model` section, to the the `view` section.
+- Step 4 : the `view` section transforms the data into a presentable format, and sends it back to the `cotroller`.
+- Step 5 : the `controller` then renders the data sent by the `view` section to the user. 
 
 ## Pseudocode:
 
