@@ -23,6 +23,7 @@ Suppose, a user requests the list of all modules in the Javascript section, to a
 
 ## Pseudocode:
 
+```
 http://yourapp.com/users/profile/1
 
 /routes
@@ -54,7 +55,7 @@ http://yourapp.com/users/profile/1
             <li>Phone: {profile.phone}</li>     
           </ul> 
 
-
+```
 # Spring framework:
 
 ## Overview
